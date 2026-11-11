@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sitio de fans de Teemo, el Explorador Veloz de League of Legends.">
+  <title>TEEMO | El Explorador Veloz</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="header">
+    <a class="brand" href="#inicio"><span class="brand-icon">✦</span> TEEMO<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Abrir navegación" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a><a href="#historia">Historia</a><a href="#habilidades">Habilidades</a><a href="#galeria">Galería</a>
+      <a href="#reto" class="nav-button">¡Una seta!</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot"></span> BIENVENIDO A LA GRIETA DEL INVOCADOR</div>
+        <p class="hero-kicker">LEAGUE OF LEGENDS · CAMPEÓN</p>
+        <h1>PEQUEÑO<br>EXPLORADOR.<br><em>GRANDES</em><br>PROBLEMAS.</h1>
+        <p class="hero-description">Conoce a <strong>Teemo</strong>, el intrépido yordle de Bandle City. Una sonrisa inocente, una cerbatana letal y una sorprendente cantidad de trampas.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#habilidades">Explorar habilidades <span>↗</span></a><a class="btn btn-outline" href="#historia">Conocer su historia ↓</a></div>
+        <div class="hero-stats"><div><strong>YORDLE</strong><span>Origen</span></div><div><strong>EXPLORADOR</strong><span>Especialidad</span></div><div><strong>RUNATERRA</strong><span>Universo</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-art" role="img" aria-label="Ilustración oficial de Teemo de League of Legends"></div>
+        <div class="hero-badge">⚡ EL EXPLORADOR VELOZ</div>
+        <span class="floating-mushroom m1">🍄</span><span class="floating-mushroom m2">🍄</span>
+        <div class="image-credit">Arte del campeón: Riot Games / Data Dragon</div>
+      </div>
+      <div class="vertical-label">SCOUTING AHEAD / 001</div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div>🍄  NUNCA SUBESTIMES EL PODER DE LOS EXPLORADORES  ✦  BAND​​LE CITY  ✦  NUNCA SUBESTIMES EL PODER DE LOS EXPLORADORES  ✦  BAND​​LE CITY  ✦</div></div>
+    <section id="historia" class="section story">
+      <div class="section-heading"><span class="section-number">01 / HISTORIA</span><h2>NO DEJES QUE<br><em>LA SONRISA</em> TE ENGAÑE.</h2></div>
+      <div class="story-grid"><div class="story-portrait"><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Teemo_0.jpg" alt="Teemo, el Explorador Veloz" loading="lazy"><span>BANDLE CITY / RUNATERRA</span></div>
+      <div class="story-copy"><span class="pill">UN YORDLE, MIL AVENTURAS</span><p>Teemo recorre los rincones de Runaterra con entusiasmo incansable y un gran sentido del deber. Pese a su apariencia adorable, es uno de los exploradores más perseverantes de Bandle City.</p><p>Su especialidad es el sigilo, la precisión y las trampas. Quienes lo persiguen aprenden una lección muy particular: el terreno siempre puede esconder una sorpresa.</p><blockquote>“¡El tamaño no lo es todo!”</blockquote><p class="muted">Página creada como proyecto educativo de HTML, CSS y JavaScript para el Laboratorio 12 de Sistemas Operativos y Plataformas.</p></div></div>
+    </section>
+    <section id="habilidades" class="section abilities">
+      <div class="section-heading"><span class="section-number">02 / KIT DE HABILIDADES</span><h2>ARMADO Y <em>PELIGROSO.</em></h2><p>Haz clic en cada habilidad para descubrir cómo pelea este pequeño explorador.</p></div>
+      <div class="ability-layout"><div class="ability-options">
+        <button class="ability active" data-skill="0"><span class="skill-key">P</span><span><strong>Guerra de guerrillas</strong><small>Pasiva</small></span><span class="chevron">↗</span></button>
+        <button class="ability" data-skill="1"><span class="skill-key">Q</span><span><strong>Dardo cegador</strong><small>Habilidad Q</small></span><span class="chevron">↗</span></button>
+        <button class="ability" data-skill="2"><span class="skill-key">W</span><span><strong>Movimiento rápido</strong><small>Habilidad W</small></span><span class="chevron">↗</span></button>
+        <button class="ability" data-skill="3"><span class="skill-key">E</span><span><strong>Tiro tóxico</strong><small>Habilidad E</small></span><span class="chevron">↗</span></button>
+        <button class="ability" data-skill="4"><span class="skill-key">R</span><span><strong>Trampa nociva</strong><small>Habilidad definitiva</small></span><span class="chevron">↗</span></button>
+      </div><div class="skill-panel"><div class="skill-glow"></div><div class="skill-symbol" id="skill-symbol">👣</div><div class="skill-content"><span id="skill-type">PASIVA</span><h3 id="skill-title">Guerra de guerrillas</h3><p id="skill-description">Teemo puede camuflarse cuando permanece quieto. Al salir de su escondite, obtiene una ventaja para atacar por sorpresa.</p></div></div></div>
+    </section>
+    <section id="galeria" class="section gallery">
+      <div class="section-heading"><span class="section-number">03 / UNIVERSO TEEMO</span><h2>UN EXPLORADOR.<br><em>MUCHAS AVENTURAS.</em></h2></div>
+      <div class="gallery-grid">
+        <article class="gallery-card gallery-big"><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg" alt="Ilustración clásica de Teemo" loading="lazy"><div><small>01 / CLÁSICO</small><h3>Teemo original</h3></div></article>
+        <article class="gallery-card"><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_4.jpg" alt="Ilustración de aspecto de Teemo" loading="lazy"><div><small>02 / ASPECTOS</small><h3>Más allá de Bandle</h3></div></article>
+        <article class="gallery-card gallery-green"><div class="mushroom-art">🍄</div><div><small>03 / ZONA PELIGROSA</small><h3>¡Cuidado dónde pisas!</h3></div></article>
+      </div>
+    </section>
+    <section class="section challenge" id="reto"><div class="challenge-box"><span class="section-number">04 / MINIJUEGO</span><h2>¿PUEDES ENCONTRAR<br><em>LAS SETAS?</em></h2><p>Teemo ha escondido cinco setas. Haz clic en las casillas para encontrarlas. ¿Cuántos intentos necesitarás?</p><div class="game-top"><span id="game-count">Setas encontradas: 0 / 5</span><button class="restart" id="restart">↻ Reiniciar</button></div><div class="game-grid" id="game-grid" aria-label="Minijuego de descubrir setas"></div><p class="game-message" id="game-message" aria-live="polite">Escoge una casilla para comenzar.</p></div></section>
+  </main>
+  <footer class="footer"><div><a class="brand" href="#inicio">✦ TEEMO<span class="brand-dot">.</span></a><p>Un sitio de fans creado con HTML, CSS y JavaScript.</p></div><div class="footer-right"><span>PROYECTO EDUCATIVO · LABORATORIO 12</span><p>League of Legends, Teemo y sus imágenes pertenecen a Riot Games. Este proyecto no está afiliado ni respaldado por Riot Games.</p></div></footer>
+</body></html>

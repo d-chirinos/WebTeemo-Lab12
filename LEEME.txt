@@ -1,0 +1,23 @@
+WEB TEEMO - LABORATORIO 12
+
+CONTENIDO
+index.html: pagina principal
+css/estilos.css: estilos visuales
+js/app.js: interacciones y minijuego
+
+PARA IIS:
+1. Descomprime esta carpeta.
+2. Copia la carpeta WebTeemo a C:\\inetpub\\WebTeemo.
+3. En IIS Manager > Sites > Add Website, usa:
+   Site name: WebTeemo
+   Physical path: C:\\inetpub\\WebTeemo
+   Binding: http, All Unassigned, puerto 8081
+4. Agrega una regla de entrada TCP 8081 en Windows Firewall y en el NSG de Azure solo si el sitio debe consultarse desde fuera.
+5. Prueba primero http://localhost:8081 en la propia VM.
+6. Prueba externamente http://IP_PUBLICA:8081 después de autorizar ese puerto.
+
+IMAGENES
+Las ilustraciones oficiales de Teemo se cargan desde Riot Games Data Dragon y REQUIEREN INTERNET para visualizarse. El sitio sigue funcionando sin esas imagenes pero la galeria no se vera completa.
+
+USO EDUCATIVO
+Sitio de fans no oficial. League of Legends, Teemo y las imagenes oficiales son propiedad de Riot Games.
